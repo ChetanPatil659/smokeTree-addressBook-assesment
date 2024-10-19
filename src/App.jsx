@@ -44,7 +44,6 @@ function App() {
       state: "NY",
       zip: "67890",
     },
-    // Add more addresses as needed
   ];
 
 
@@ -56,7 +55,7 @@ function App() {
         width: "100vw",
         background: theme.background,
         display: "flex",
-        flexDirection: isMobile ? "column" : "row", // Column for mobile, row for desktop
+        flexDirection: isMobile ? "column" : "row", 
       }}
     >
       <Navbar />
